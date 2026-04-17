@@ -148,18 +148,19 @@ export const PROCESS_STEPS = [
 ];
 
 export const TEAM = [
-  {
-    name: "Mohd Sibtain",
-    role: "Co-Founder & CEO",
-    bio: "Leads vision, strategy, and creative direction",
-    image: "/images/team/mohd-sibtain.png",
-  },
-  {
-    name: "Rishabh Agarwal",
-    role: "Co-Founder & COO",
-    bio: "Heads operations, delivery, and client success",
-    image: "/images/team/rishabh-agarwal.png",
-  },
+  // Temporarily hidden — uncomment to restore
+  // {
+  //   name: "Mohd Sibtain",
+  //   role: "Co-Founder & CEO",
+  //   bio: "Leads vision, strategy, and creative direction",
+  //   image: "/images/team/mohd-sibtain.png",
+  // },
+  // {
+  //   name: "Rishabh Agarwal",
+  //   role: "Co-Founder & COO",
+  //   bio: "Heads operations, delivery, and client success",
+  //   image: "/images/team/rishabh-agarwal.png",
+  // },
   {
     name: "Mohd Saklain",
     role: "Co-Founder & CTO",

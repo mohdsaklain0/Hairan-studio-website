@@ -8,7 +8,15 @@ export default function Team() {
       <div className="max-w-7xl mx-auto">
         <SectionHeading title="The Minds Behind Hairan" />
 
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-12 max-w-4xl mx-auto">
+        <div
+          className={`grid grid-cols-1 gap-12 mx-auto ${
+            TEAM.length === 1
+              ? "max-w-sm"
+              : TEAM.length === 2
+                ? "sm:grid-cols-2 max-w-2xl"
+                : "sm:grid-cols-3 max-w-4xl"
+          }`}
+        >
           {TEAM.map((member, i) => (
             <TeamCard
               key={member.name}
